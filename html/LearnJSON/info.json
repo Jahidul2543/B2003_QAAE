@@ -1,0 +1,49 @@
+{
+
+    "StudenstInfo"  : 
+            [
+                {
+                    "Name"  : "Ferhan",
+                    "ID"    : "B2003QA101",
+                    "Hobby" : "Cricket",
+                    "Color" : "Navy Blue",
+                    "Age"   :   27,
+                    "MaritalStatus" : false
+                },
+                {
+                    "Name"  : "Monir",
+                    "ID"    : "B2003QA102",
+                    "Hobby" : "Eating",
+                    "Color" : "Green" ,
+                    "Age"   :   null,
+                    "MaritalStatus" : true 
+                },
+                {
+                    "Name"  : "Sadika",
+                    "ID"    : "B2003QA103",
+                    "Hobby" : "Illustration",
+                    "Color" : "White",
+                    "Age"   :   20,
+                    "MaritalStatus" : false  
+                },
+                {
+                    "Name"  : "Huma",
+                    "ID"    : "B2003QA104",
+                    "Hobby" : "Cooking",
+                    "Color" : "Pink" ,
+                    "Age"   :   29,
+                    "MaritalStatus" : true 
+                }
+            ],
+
+            "ListOfColor" : [
+                "Blue",
+                "Green",
+                "Red",
+                "Yellow",
+                "White",
+                "Violate"
+            ]
+    
+
+}
