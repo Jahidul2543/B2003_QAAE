@@ -40,6 +40,9 @@ public class Light {
 
          myTableLight.turnOnLights("MyTableLight");
          myLivingRoomLight.turnOnLights("MyLivingRoomLight");
+
+        System.out.println(myTableLight.equals(myLivingRoomLight)); // False
+        System.out.println(myTableLight.getClass());
     }
 
     /**
