@@ -2,7 +2,7 @@ package unittestinstingdemo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CalculatorTest {
+public class CalculatorTest{
     /**
      * Write some code to test add() from Calculator class
      * 1. 2 + 4 =6 --> Test Passed
