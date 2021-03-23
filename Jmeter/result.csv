@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1616460061646,443,/oauth2/token,200,OK,Thread Group 1-1,text,true,,1555,420,1,1,https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token,437,0,297
+1616460062119,1799,/test/submit,200,OK,Thread Group 1-1,text,true,,337,1146,1,1,https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit,1799,0,86
+1616460063920,359,/test/people,200,OK,Thread Group 1-1,text,true,,1068,1077,1,1,https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/people,359,0,0
+1616460062117,2158,Transaction Controller,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1405,2223,1,1,null,2158,5,86
+1616460064293,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1150,0,1,1,null,0,0,0

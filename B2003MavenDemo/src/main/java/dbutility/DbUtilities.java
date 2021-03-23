@@ -6,8 +6,8 @@ import java.util.*;
 public class DbUtilities {
 
     String userName = "postgres";
-    String password = "postgres";
-    String hostName = "qaae-b2003.cen58y5cse53.us-east-1.rds.amazonaws.com";
+    String password = "localhost";
+    String hostName = "localhost";
     String portNumber = "5432";
     String database = "dvdrental";
     String query = "SELECT actor_id, first_name, last_name, last_update FROM public.actor limit 15;";
@@ -45,6 +45,7 @@ public class DbUtilities {
         Map<String , String> record = new HashMap<>();
         int i = 0;
         while (resultSet.next()) {
+            record = null;
             record.put("actor_id", resultSet.getString("actor_id"));
             record.put("first_name", resultSet.getString("first_name"));
             record.put("last_name", resultSet.getString("last_name"));
